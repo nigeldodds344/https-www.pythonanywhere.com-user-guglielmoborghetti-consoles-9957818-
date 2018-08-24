@@ -12,8 +12,8 @@ app.config["DEBUG"] = True
 SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
     username="guglielmoborghet",
     password="Exeter22",
-    hostname="gugliemoborghetti.mysql.pythonanywhere-services.com",
-    databasename="gugliemoborghet$dummyempty",
+    hostname="guglielmoborghetti.mysql.pythonanywhere-services.com",
+    databasename="guglielmoborghet$comments",
 )
 app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
 app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
