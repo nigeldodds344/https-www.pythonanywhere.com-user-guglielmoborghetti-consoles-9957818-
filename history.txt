@@ -1,0 +1,41 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git commit -m "cisco CS 81.21 2018-08Modules...CS 81.21 2018-08...home...jump to module from home"
+    5  mkvirtualenv flask-tutorial --python=python3.6
+    6  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    7  pip freeze > requirements.txt
+    8  git status
+    9  git add .
+   10  git commit -m "CS 81.21 2018-08PagesRecorded Lecture 01-17: Introduction; Chapter 1"
+   11  pip install Flask-Migrate
+   12  export FLASK_APP=flask_app.py
+   13  flask db init
+   14  flask db migrate
+   15  git status
+   16  flask db migrate
+   17  git status
+   18  git add .
+   19  git commit -m "il fait chaud"
+   20  flask db migrate
+   21  flask db stamp head
+   22  pip freeze > requirements.txt
+   23  git status
+   24  git add .
+   25  git commit -m "j'evoque deux scenes majeures du nouveau testament des eloges"
+   26  flask db migrate
+   27  flask db upgrade
+   28  git status
+   29  git add .
+   30  git commit -m "vous perdez mais cest une question sur les noeuds"
+   31  flask db migrate
+   32  flask db upgrade
+   33  flask shell
+   34  echo "# https-www.pythonanywhere.com-user-guglielmoborghetti-consoles-9957818-" >> README.md
+   35  git init
+   36  git add README.md
+   37  git commit -m "first commit"
+   38  git remote add origin https://github.com/nigeldodds344/https-www.pythonanywhere.com-user-guglielmoborghetti-consoles-9957818-.git
+   39  git push -u origin master
+   40  history
+   41  history > history.txt
